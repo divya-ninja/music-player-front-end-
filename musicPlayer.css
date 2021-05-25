@@ -1,0 +1,460 @@
+body{
+	background-color: #5e3247;
+}
+
+/*------------------------------Header section--------------------------------*/
+
+.names{
+	font-size: 100%;
+	font-weight: bold;
+	font-family: sans-serif;
+	color: white;
+}
+
+#header{
+	height: 10%;
+	margin: 1%;
+}
+
+#header1{
+	display: flex;
+	width: 30%;
+	justify-content: space-between;
+}
+
+#header2{
+	display: flex;
+	width: 35%;
+	justify-content: space-between;
+	align-content: flex-end;
+}
+
+#logo-icon i{
+	color: #6ab991;
+	position: relative;
+	font-size: 300%;
+	margin: 0.5%;
+}
+
+.top-margin{
+	margin-top: 6%; 
+}
+
+#header2 img{
+	width: 20%;
+	height: 70%;
+	border-radius: 50%;
+	margin-top: 2%;
+}
+
+#header2 input{
+	height: 2%;
+	width: 90%;
+	border-radius: 20%;
+	background-color: #6d4357;
+}
+
+/*----------------------------------main section------------------------------*/
+#main{
+	display: block;
+	width: 68%;
+	margin: 2% 1% 5% 5%;
+}
+
+@media screen and (max-width: 800px){
+	#main{
+		width: 90%;
+		margin: 5%;
+	}
+
+	#aside{
+		width: 90%;
+		margin: 5%;
+	}
+}
+
+#main div{
+	margin-top: 1%;
+	margin-bottom: 3%;
+} 
+
+#top-div img{
+	height: 75%%;
+	width: 85%;
+}
+
+.grow:hover {
+	transition: all 0.5s ease-in-out;
+	transform: scale(1.2);
+ }
+
+h4{
+	align-content: flex-start;
+}
+
+/*----------------Latest Release---------------*/
+.image-name{
+	color: white;
+	font-size: 0.85rem;
+}
+
+.date{
+	font-size: 0.7rem;
+	color: #a8d0dc;
+}
+
+#div1 div, #div2 div{
+	width: 40%;
+}
+
+#latest-release select{
+	background-color: #5e3247; 
+	border: none; 
+	height: 10px; 
+	width: 15px; 
+	color: white;
+}
+
+.fas option {
+
+    font-weight: 900;
+}
+
+#latest-release img{
+	width: 70%;  
+	height: 70%;
+	margin-right: 2%;
+}
+
+.square-images{
+	width: 70%;
+	height: 70%;
+}
+
+.display{
+	display: flex;
+	justify-content: space-between;
+}
+
+/*-------------Popular Artists-----------*/
+
+#popular-artists img{
+	width: 60%;
+	height: 110%;
+	border: 1% solid black;
+	border-radius: 50%;
+}
+
+#popular-artists #artists-image div{
+	text-align: center;
+}
+
+
+/*----------Stations--------------------*/
+#Stations{
+	background-color: #6d4357;
+}
+
+#Stations img{
+	width: 70%;
+	height: 120%;
+	border: 1% solid black;
+	border-radius: 50%;
+}
+
+#station-logo img{
+	border-radius: 0%;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text-over-image {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.zoom{
+	width: 21vw;
+	height: 25vh;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	color: white;
+	background-position: center;
+	background-size: cover;
+}
+
+.zoom:hover {
+	background-size: 200%;
+	-webkit-transition: all 1s ease-in-out;
+}
+
+/*----------------footer section-----------------------*/
+#footer{
+	background-color: grey;
+	bottom: 0;
+	position: fixed;
+	height: 10%;
+	width: 100%;
+}
+
+#footer-left{
+	width: 25%;
+	margin-left: 10%;
+	margin-right: 5%;
+	display: flex;
+}
+
+#footer-left div{
+	margin-top: 2%;
+	margin-left: 2%;
+}
+
+#footer-left img{
+	width: 20%;
+	height: 80%;
+	margin-top: 1%;
+}
+
+#footer-mid{
+	width: 20%;
+	margin-top: 2%;
+}
+
+#footer-mid i{
+	margin: 2% 5% 5% 5%; 
+}
+
+#footer-right{
+	width: 25%;
+	margin-right: 10%;
+	margin-left: 15%;
+	display: flex;
+}
+
+#footer-mid audio{
+	width: 90%;
+	height: 50%;
+	background-color: grey;
+	color: grey;
+}
+
+#footer-left i{
+	margin: 8% 1% 10% 1%;
+}
+
+#footer-right i{
+	margin-top: 8%; 
+	position: relative;
+	vertical-align: middle;
+}
+
+#footer-right input{
+	margin-bottom: 2%;
+}
+
+/*-------------------------Aside Section---------------------------------*/
+#aside{
+	width: 20%;
+	margin: 2% 5% 5% 1%;
+}
+
+@media screen and (max-width: 800px){
+	#mid{
+		display: block;
+	}
+	#main{
+		width: 90%;
+		margin: 5%;
+	}
+	#aside{
+		width: 90%;
+		margin: 5%;
+	}
+}
+
+#aside select{
+	background-color: #5e3247; 
+	border: none; 
+	height: 20%%; 
+	width: 8%; 
+	color: white;
+}
+
+#queue{
+	margin: 5% 0% 5% 0%;
+}
+
+#aside-left{
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 2%;
+}
+
+#aside-left img{
+	width: 35%;
+	height: 80%;
+}
+
+#aside-left #number{
+	margin: 5% 0% 5% 0%;
+}
+
+#aside-left #song-name{
+	margin: 5% 0% 5% 0%;
+}
+
+.like:hover{
+	color: red;
+} 
+
+
+/*---------------------------------------------Single Playlist------------------------------------------*/
+
+#main2{
+	display: block;
+	width: 65%;
+	margin: 2% 2% 2% 5%;
+}
+
+@media screen and (max-width: 800px){
+	#mid2{
+		display: block;
+	}
+	#main2{
+		width: 90%;
+		margin: 5%;
+	}
+	#aside2{
+		width: 90%;
+		margin: 5%;
+	}
+}
+
+#artist-info{
+	height: 30%;
+}
+
+#artist-info{
+	background-color: #6d4357;
+}
+
+#artist-info img{
+	width: 40%;
+	height: auto;
+}
+
+#about-artist{
+	width: 55%;
+	margin: 5% 2.5% 5% 2.5%;
+}
+
+#about-artist p{
+	font-size: 80%;
+	color: #a8d0dc;
+}
+
+#play-button{
+	display: flex;
+	margin-top: 5%;
+}
+
+#play-button button{
+	margin-right: 20%;
+	background-color: #8f6060;
+}
+
+.artist-playlists{
+	height: 10%;
+	margin: 2% 0% 2% 0%;
+	background-color: #6d4357;
+}
+
+#aside2{
+	width: 20%;
+	margin: 5% 5% 5% 2%;
+}
+
+#playlist-left{
+	width: 30%;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 2%;
+}
+
+#number{
+	color: white;
+	margin: 15% 0% 15% 0%;
+}
+
+#playlist-left img{
+	width: 40%;
+	height: 70%;
+	margin-top: 5%;
+}
+
+#playlist-right{
+	width: 10%;
+	display: flex;
+	justify-content: space-between;
+	margin-right: 2%;
+
+}
+
+i{
+	color: white;
+	margin: 50% 0% 30% 0%;
+}
+
+#song-name{
+	font-size: 1rem;
+	color: white;
+	margin-top: 30%;
+}
+
+#artist-name{
+	font-size: 0.9rem;
+	color: #a8d0dc;
+}
+
+/*-------------Aside Section of Single Playlist--------------------*/
+
+#aside2 #aside-left{
+	width: 70%;
+}
+
+@media screen and (max-width: 800px){
+	#mid2{
+		display: block;
+	}
+	#main2{
+		width: 90%;
+		margin: 5%;
+	}
+	#aside2{
+		width: 90%;
+		margin: 5%;
+	}
+}
+
+#view-all{
+	font-size: 80%;
+	color: #a8d0dc;;
+}
+
+#similar-artists{
+	margin-bottom: 20%;
+}
+
+#similar-artists img{
+	width: 50%;
+	height: 100%;
+}
+
